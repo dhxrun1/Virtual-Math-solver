@@ -35,32 +35,23 @@ This project is a **hand gesture-controlled math solver** built with Python, Ope
 | 1️⃣ finger on each hand & bring fingertips together | `exit` |
 | Show 1-5 fingers on one hand | Enters that number into expression |
 
----
 
 ## 💻 Setup Instructions
 
 ### 1. Clone the Repository
-```bash
+
 git clone https://github.com/dhxrun1/gesture-math-solver.git
 cd gesture-math-solver
 2. Install Dependencies
 Make sure you have Python 3 installed, then run:
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
 3. Run the App
-bash
-Copy
-Edit
+
 python main.py
 Make sure your webcam is enabled.
 
 📂 File Structure
-bash
-Copy
-Edit
 gesture-math-solver/
 ├── main.py            # Main Python file (gesture detection logic)
 ├── README.md          # You're reading it!
@@ -68,8 +59,6 @@ gesture-math-solver/
 📦 requirements.txt
 Here’s what you should add in your requirements.txt:
 
-Copy
-Edit
 opencv-python
 mediapipe
 numpy
@@ -86,9 +75,6 @@ Voice feedback for visually impaired users
 
 Extend to scientific calculations
 
-📸 Screenshots
-Add a screenshot here of your project running (optional but recommended)
-
 🛑 Exit Gesture
 Make an 'X' sign with your index fingers of both hands (bring fingertips close) to gracefully exit the program.
 
@@ -96,11 +82,3 @@ Make an 'X' sign with your index fingers of both hands (bring fingertips close) 
 MIT License. Use freely for learning or extending the project.
 
 Feel free to ⭐️ this repo if you found it interesting or useful!
-
-yaml
-Copy
-Edit
-
----
-
-Let me know if you want me to generate a `requirements.txt` too or upload an image/screenshot you can include under "Screenshots" section.
